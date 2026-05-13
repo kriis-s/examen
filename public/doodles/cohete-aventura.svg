@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dibujito Cohete Aventura</title>
+  <desc id="desc">Cohete infantil viajando entre estrellas.</desc>
+  <rect width="800" height="520" fill="#dbeafe"/>
+  <g fill="#facc15">
+    <path d="M125 95l12 25 28 4-20 19 5 28-25-13-25 13 5-28-20-19 28-4z"/>
+    <path d="M650 95l14 30 33 5-24 23 6 33-29-16-29 16 6-33-24-23 33-5z"/>
+    <path d="M610 330l10 21 23 3-17 16 4 23-20-11-20 11 4-23-17-16 23-3z"/>
+  </g>
+  <g transform="translate(400 260) rotate(-25)">
+    <path d="M-60 92c-55 18-95 55-120 110 58-18 98-45 128-88z" fill="#fb7185" stroke="#7c2d12" stroke-width="8"/>
+    <path d="M60 92c55 18 95 55 120 110-58-18-98-45-128-88z" fill="#fb7185" stroke="#7c2d12" stroke-width="8"/>
+    <path d="M0-170c95 62 125 190 58 310H-58C-125 20-95-108 0-170z" fill="#fff7ed" stroke="#7c2d12" stroke-width="9"/>
+    <circle cy="-32" r="38" fill="#93c5fd" stroke="#7c2d12" stroke-width="8"/>
+    <path d="M-42 140h84l-18 70h-48z" fill="#f97316" stroke="#7c2d12" stroke-width="8"/>
+    <path d="M-20 215c8 34 20 58 20 58s12-24 20-58z" fill="#facc15"/>
+  </g>
+</svg>

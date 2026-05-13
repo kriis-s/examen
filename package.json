@@ -1,0 +1,37 @@
+{
+  "name": "actividad-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "setup:gradle": "powershell -ExecutionPolicy Bypass -File scripts/install-gradle.ps1",
+    "mobile:sync": "npm run build && node scripts/sync-cordova.js",
+    "mobile:build": "npm run mobile:sync && powershell -ExecutionPolicy Bypass -File scripts/cordova-build.ps1",
+    "mobile:release": "npm run mobile:sync && powershell -ExecutionPolicy Bypass -File scripts/cordova-build.ps1 -Release",
+    "mobile:release:signed": "powershell -ExecutionPolicy Bypass -File scripts/cordova-release-signed.ps1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "firebase": "^12.13.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.0",
+    "simple-react-validator": "^1.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "cordova": "^13.0.0",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "vite": "^8.0.12"
+  }
+}
