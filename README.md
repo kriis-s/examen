@@ -30,8 +30,8 @@ Estilos con Bootstrap y CSS.
 Firebase Auth implementado.
 Firebase Storage implementado en codigo.
 Proyecto Cordova para Android.
-APK debug generado y probado en telefono.
-APK release firmado generado.
+APK debug listo y probado en telefono.
+APK release firmado listo.
 
 Como ejecutar el proyecto:
 
@@ -61,6 +61,8 @@ contactos
 Pagina publicada:
 
 https://examen-7dd8b.web.app
+https://github.com/kriis-s/examen
+https://gleeful-puppy-ac56b7.netlify.app/
 
 -----------------------------------------
 
@@ -89,4 +91,3 @@ cordova-app/platforms/android/app/build/outputs/bundle/release/app-release.aab
 La keystore se creo localmente en:
 
 keystore/dibujitos-release.keystore
-
