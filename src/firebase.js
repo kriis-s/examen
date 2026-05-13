@@ -10,12 +10,12 @@ import { addDoc, collection, getFirestore, serverTimestamp } from "firebase/fire
 import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCEu2ALClTRHnWqnOWCHONf97IRtY-9UUk",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "examen-7dd8b.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "examen-7dd8b",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "examen-7dd8b.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "436715435932",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:436715435932:web:e47db30a8d013f54b97a59",
 }
 
 export const hasFirebaseConfig = Object.values(firebaseConfig).every(Boolean)
